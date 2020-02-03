@@ -1,0 +1,6 @@
+xcassets:
+  inputs:
+    - SwiftBoilerplate/Resources/Images.xcassets
+  outputs:
+    - templateName: swift4
+      output: SwiftBoilerplate/Generated/assets-images.swift
