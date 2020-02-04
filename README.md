@@ -32,7 +32,7 @@ mint bootstrap
 I make a Mintfile and these packages a listed in this file.
 Mint makes installing and running these packages easy, as the specific repos and versions are centralized.
 
-## Carthage Libraries Install
+## Carthage Libraries
 
 ex)
 
@@ -47,3 +47,4 @@ XcodeGen set carthage settings. so you don't need add the paths to the framework
 - SwiftFormat
 - SwiftLint
 - SwiftGen
+- Carthage
