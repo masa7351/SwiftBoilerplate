@@ -48,3 +48,13 @@ XcodeGen set carthage settings. so you don't need add the paths to the framework
 - SwiftLint
 - SwiftGen
 - Carthage
+
+# Usage
+
+XcodeGen generates SwiftBoilerplate.xcodeproj.
+
+Simply run:
+
+```
+xcodegen generate
+```
