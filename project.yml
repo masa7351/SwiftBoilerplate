@@ -66,6 +66,9 @@ targets:
     settings:
       CODE_SIGN_STYLE: Manual
       INFOPLIST_FILE: SwiftBoilerplate/Info.plist
+    dependencies:
+      - carthage: Kingfisher
+      - carthage: KingfisherSwiftUI
     configs:
       Debug:
         SWIFT_ACTIVE_COMPILATION_CONDITIONS: DEBUG

@@ -32,6 +32,16 @@ mint bootstrap
 I make a Mintfile and these packages a listed in this file.
 Mint makes installing and running these packages easy, as the specific repos and versions are centralized.
 
+## Carthage Libraries Install
+
+ex)
+
+```
+carthage update Kingfisher --platform iOS
+```
+
+XcodeGen set carthage settings. so you don't need add the paths to the frameworks `Input Files` and `Output Files`
+
 # Xcode Scripts
 
 - SwiftFormat

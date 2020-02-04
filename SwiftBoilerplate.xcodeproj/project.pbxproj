@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		2B29B892713ACEABDF3E6E5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE650A990ADD0AD46B70366 /* LaunchScreen.storyboard */; };
 		31B8D24CDA02913B4535C3C7 /* SwiftBoilerplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34D90E1D0665411CBFFFC25 /* SwiftBoilerplateTests.swift */; };
+		436F4F81905DE3496468BF7C /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12586C5D6C8F58C5AD0AC483 /* Kingfisher.framework */; };
+		448ECCC4A5E402C969AFBEC9 /* KingfisherSwiftUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79B1B78A98ADDD240DA277A3 /* KingfisherSwiftUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		577B451A4EF2025D4577C7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E773A8F0E767CAE36FE32FEF /* Assets.xcassets */; };
+		677AA226D52845848CE5CB38 /* KingfisherSwiftUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79B1B78A98ADDD240DA277A3 /* KingfisherSwiftUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A9982AC6B5CBF30C250F95B /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12586C5D6C8F58C5AD0AC483 /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7586DF5408B5E310AB005F42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E68DF6F20AE12820A23F65 /* AppDelegate.swift */; };
 		89DB5DBB4AFFB893BE2D7977 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B6589945D49874085B533 /* ContentView.swift */; };
 		8D58B154A5AB9F79A39BE363 /* assets-images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4C4A40F2A756BE028EB227 /* assets-images.swift */; };
 		B611E26CC903FA120CE2FD40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA980A022913DF465B6B3B /* SceneDelegate.swift */; };
+		BFD69AC8D006B2D952E4760F /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12586C5D6C8F58C5AD0AC483 /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C587CAB1BC11CCA3354C4F55 /* KingfisherSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B1B78A98ADDD240DA277A3 /* KingfisherSwiftUI.framework */; };
 		C70B1B831F5A792B885DCEB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0600651138B1882366621CD /* Images.xcassets */; };
 		CDF29C4817405190EBD1655B /* SwiftBoilerplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6A548B54F234878B4D981 /* SwiftBoilerplateUITests.swift */; };
 		EAFC20C0A9BA8075AC59D695 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795FDF0FA21E063AC865174F /* Preview Assets.xcassets */; };
@@ -36,11 +42,40 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C2EC5DCE8289FB3365D74AE4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6A9982AC6B5CBF30C250F95B /* Kingfisher.framework in Embed Frameworks */,
+				677AA226D52845848CE5CB38 /* KingfisherSwiftUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB82A6CEFC126644E58ABB3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BFD69AC8D006B2D952E4760F /* Kingfisher.framework in Embed Frameworks */,
+				448ECCC4A5E402C969AFBEC9 /* KingfisherSwiftUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		12586C5D6C8F58C5AD0AC483 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = "<group>"; };
 		2B4C4A40F2A756BE028EB227 /* assets-images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "assets-images.swift"; sourceTree = "<group>"; };
 		47E68DF6F20AE12820A23F65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70CE44B665330AF04AABFFC9 /* SwiftBoilerplateTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SwiftBoilerplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		795FDF0FA21E063AC865174F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79B1B78A98ADDD240DA277A3 /* KingfisherSwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KingfisherSwiftUI.framework; sourceTree = "<group>"; };
 		81FCA4F0A2507C4B7FB07CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8F83C302683D6306C62D0EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		92CA980A022913DF465B6B3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,13 +90,35 @@
 		FB984F2FE2B923E6E6D24D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		84BF081E62797A3D31B49F2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436F4F81905DE3496468BF7C /* Kingfisher.framework in Frameworks */,
+				C587CAB1BC11CCA3354C4F55 /* KingfisherSwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
+		0F92E48ED1F7E6C15A416589 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				12586C5D6C8F58C5AD0AC483 /* Kingfisher.framework */,
+				79B1B78A98ADDD240DA277A3 /* KingfisherSwiftUI.framework */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 		306274478C0F6AE8F2ABEB37 = {
 			isa = PBXGroup;
 			children = (
 				B30F0D0F78BAE80DD33E841D /* SwiftBoilerplate */,
 				BA36C88B72B4FC704F52BE98 /* SwiftBoilerplateTests */,
 				8CFE2B99821CF1852880A895 /* SwiftBoilerplateUITests */,
+				43E530A5EFE80C89D48F9A8F /* Frameworks */,
 				CCDC670C9EBC464466FD7E0A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +129,23 @@
 				795FDF0FA21E063AC865174F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43E530A5EFE80C89D48F9A8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A9935904457BE3D38831AC7 /* Carthage */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A9935904457BE3D38831AC7 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				0F92E48ED1F7E6C15A416589 /* iOS */,
+			);
+			name = Carthage;
+			path = Carthage/Build;
 			sourceTree = "<group>";
 		};
 		849F429E44EA2C26F46C2C4E /* Resources */ = {
@@ -142,6 +216,7 @@
 			buildConfigurationList = 843E3664C66F311F50AFBBF4 /* Build configuration list for PBXNativeTarget "SwiftBoilerplateUITests" */;
 			buildPhases = (
 				D0325442A636B913D99D65E7 /* Sources */,
+				DEB82A6CEFC126644E58ABB3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,6 +237,8 @@
 				8BADD8D8D2CA2D4E0F56189A /* Run SwiftGen */,
 				FDAD070447575267A4F63062 /* Sources */,
 				518A2EE6F815DA4B319F6DC6 /* Resources */,
+				CEAB427901310D86E8EB2BCC /* Carthage */,
+				84BF081E62797A3D31B49F2B /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,6 +254,7 @@
 			buildConfigurationList = 9F16034E97D9E2267BB4A636 /* Build configuration list for PBXNativeTarget "SwiftBoilerplateTests" */;
 			buildPhases = (
 				85F03BC284BF825D54B3C646 /* Sources */,
+				C2EC5DCE8289FB3365D74AE4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,6 +372,24 @@
 			shellPath = /bin/sh;
 			shellScript = "if which mint >/dev/null; then\nmint run swiftformat swiftformat .\nelse\necho \"warning: Mint not installed, download from https://github.com/yonaskolb/Mint\"\nfi\n";
 		};
+		CEAB427901310D86E8EB2BCC /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/KingfisherSwiftUI.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Kingfisher.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/KingfisherSwiftUI.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "carthage copy-frameworks\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -357,6 +453,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftBoilerplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -372,6 +472,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftBoilerplateUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -389,6 +493,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftBoilerplateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -407,6 +515,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftBoilerplateUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -426,6 +538,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftBoilerplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,6 +559,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftBoilerplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,6 +580,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftBoilerplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -475,6 +599,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftBoilerplateUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -492,6 +620,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftBoilerplateUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -573,6 +705,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftBoilerplateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -663,6 +799,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftBoilerplateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -681,6 +821,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftBoilerplateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
